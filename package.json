@@ -1,0 +1,26 @@
+{
+  "name": "eq-course-studio",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "e2e": "node e2e/smoke.mjs",
+    "e2e:regen": "node e2e/regen.mjs",
+    "e2e:fallback": "node e2e/fallback.mjs",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@sveltejs/vite-plugin-svelte": "^5.0.3",
+    "@webgpu/types": "^0.1.74",
+    "playwright-core": "^1.65.1",
+    "svelte": "^5.20.0",
+    "typescript": "~5.7.3",
+    "vite": "^6.2.0",
+    "vitest": "^3.0.7"
+  }
+}
