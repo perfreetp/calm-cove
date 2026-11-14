@@ -1,0 +1,16 @@
+import { chromium } from 'playwright-core';
+const exe = 'C:/Users/Administrator/AppData/Local/ms-playwright/chromium-1255/chrome-win64/chrome.exe';
+const browser = await chromium.launch({ executablePath: exe, args: ['--enable-unsafe-webgpu', '--enable-unsafe-swiftshader'] });
+const page = await browser.newPage({ viewport: { width: 1680, height: 1050 } });
+page.on('pageerror', (e) => console.log('ERR', e.message));
+await page.goto('http://localhost:5179/#/projects', { waitUntil: 'domcontentloaded' });
+await page.evaluate(() => localStorage.clear());
+await page.reload({ waitUntil: 'networkidle' });
+await page.goto('http://localhost:5179/#/learner/shot-1', { waitUntil: 'networkidle' });
+await page.waitForTimeout(1500);
+await page.screenshot({ path: 'scripts/out/learner-play.png' });
+await page.locator('.toggle input').first().click();
+await page.waitForTimeout(900);
+await page.screenshot({ path: 'scripts/out/learner-bones.png' });
+console.log('hud', await page.locator('.stage-hud .pill').allInnerTexts());
+await browser.close();

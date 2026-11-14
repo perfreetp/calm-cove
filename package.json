@@ -1,0 +1,27 @@
+{
+  "name": "midwifery-motion-studio",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "助产培训 2D 角色骨骼动画制作与交付系统",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "fflate": "^0.8.3",
+    "solid-js": "^1.9.19"
+  },
+  "devDependencies": {
+    "@types/node": "^24.10.1",
+    "@webgpu/types": "^0.1.74",
+    "playwright-core": "^1.65.1",
+    "typescript": "^5.9.3",
+    "vite": "^7.3.8",
+    "vite-plugin-solid": "^2.11.16",
+    "vitest": "^4.1.12"
+  }
+}
