@@ -1,0 +1,24 @@
+{
+  "name": "bus-stop-block-sim",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "公交线网站台建设与三维街区推演系统",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build": "vite build",
+    "preview": "vite preview --host 127.0.0.1",
+    "test": "node scripts/test-determinism.mjs && node scripts/test-spacing.mjs",
+    "verify": "node scripts/verify.mjs"
+  },
+  "dependencies": {
+    "three": "^0.169.0",
+    "vue": "^3.5.45",
+    "vue-router": "^4.6.5"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.2.4",
+    "playwright-core": "^1.65.1",
+    "vite": "^5.4.21"
+  }
+}
