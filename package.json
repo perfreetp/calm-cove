@@ -1,0 +1,40 @@
+{
+  "name": "mountain-irrigation-archive",
+  "version": "1.0.0",
+  "description": "山区灌区渠系平面图与档案加工系统（React + SVG + D3）",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "typecheck": "tsc --noEmit",
+    "test": "echo \"no unit tests\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/perfreetp/calm-cove.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/perfreetp/calm-cove/issues"
+  },
+  "homepage": "https://github.com/perfreetp/calm-cove#readme",
+  "dependencies": {
+    "d3": "^7.9.2",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
+    "zustand": "^5.1.0"
+  },
+  "devDependencies": {
+    "@types/d3": "^7.4.3",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "@vitejs/plugin-react": "^6.3.0",
+    "playwright-core": "^1.65.1",
+    "typescript": "^7.0.2",
+    "vite": "^8.3.8"
+  }
+}
