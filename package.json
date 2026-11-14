@@ -1,0 +1,19 @@
+{
+  "name": "linen-lighting-workorder",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node build.mjs",
+    "watch": "node build.mjs --watch",
+    "start": "node server.mjs",
+    "typecheck": "tsc --noEmit",
+    "test:e2e": "node tests/e2e.mjs",
+    "test:perf": "node tests/perf.mjs"
+  },
+  "devDependencies": {
+    "esbuild": "^0.28.2",
+    "puppeteer-core": "^25.17.0",
+    "typescript": "^7.0.2"
+  }
+}
