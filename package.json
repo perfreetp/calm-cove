@@ -1,0 +1,29 @@
+{
+  "name": "workspace",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/perfreetp/calm-cove.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/perfreetp/calm-cove/issues"
+  },
+  "homepage": "https://github.com/perfreetp/calm-cove#readme",
+  "devDependencies": {
+    "@types/d3": "^7.4.3",
+    "playwright": "^1.65.1",
+    "typescript": "^7.0.2"
+  },
+  "dependencies": {
+    "d3": "^7.9.2"
+  }
+}

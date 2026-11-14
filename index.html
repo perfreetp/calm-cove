@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>定向越野跑姿动画与素材质检平台</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header id="app-header">
+  <div class="brand">🏃 定向越野 · 跑姿动画与素材质检平台</div>
+  <nav id="main-nav"></nav>
+  <div class="role-box">
+    <label>当前角色</label>
+    <select id="role-select">
+      <option value="animator">动画师</option>
+      <option value="reviewer">复核员</option>
+      <option value="coach">教练</option>
+    </select>
+  </div>
+</header>
+<main id="outlet"></main>
+<script src="vendor/d3.min.js"></script>
+<script type="module" src="dist/main.js"></script>
+</body>
+</html>
