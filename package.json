@@ -1,0 +1,37 @@
+{
+  "name": "biaobantong",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/perfreetp/calm-cove.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/perfreetp/calm-cove/issues"
+  },
+  "homepage": "https://github.com/perfreetp/calm-cove#readme",
+  "dependencies": {
+    "@babylonjs/core": "^9.36.0",
+    "earcut": "^3.2.4",
+    "jszip": "^3.10.2",
+    "opentype.js": "^2.0.0",
+    "polygon-clipping": "^0.15.7",
+    "vue": "^3.5.45",
+    "vue-router": "^4.6.5"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.65.1",
+    "@vitejs/plugin-vue": "^6.0.11",
+    "vite": "^8.3.8"
+  }
+}
