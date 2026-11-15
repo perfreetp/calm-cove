@@ -1,0 +1,28 @@
+{
+  "name": "blood-draw-skeletal-trainer",
+  "version": "1.0.0",
+  "private": true,
+  "description": "血站采血操作规范骨骼动画教学考核系统 (SolidJS + WebGPU)",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "typecheck": "tsc --noEmit",
+    "test:rules": "node scripts/rules-test.mjs",
+    "test:e2e": "node scripts/e2e-smoke.mjs"
+  },
+  "dependencies": {
+    "solid-js": "^1.9.3"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "@webgpu/types": "^0.1.74",
+    "typescript": "^5.7.2",
+    "vite": "^6.0.5",
+    "vite-plugin-solid": "^2.11.0"
+  },
+  "overrides": {
+    "csstype": "3.1.3"
+  }
+}

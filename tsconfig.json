@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "useDefineForClassFields": true,
+    "jsx": "preserve",
+    "jsxImportSource": "solid-js",
+    "lib": ["ESNext", "DOM", "DOM.Iterable"],
+    "strict": true,
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitOverride": true,
+    "skipLibCheck": true,
+    "isolatedModules": true,
+    "verbatimModuleSyntax": false,
+    "resolveJsonModule": true,
+    "allowImportingTsExtensions": false,
+    "noEmit": true,
+    "types": ["vite/client", "node", "@webgpu/types"]
+  },
+  "include": ["src", "vite.config.ts"]
+}
